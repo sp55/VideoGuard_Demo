@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8492663C1DADC58D00C73810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492663B1DADC58D00C73810 /* main.m */; };
+		8492663F1DADC58D00C73810 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492663E1DADC58D00C73810 /* AppDelegate.m */; };
+		849266421DADC58D00C73810 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849266411DADC58D00C73810 /* ViewController.m */; };
+		849266471DADC58D00C73810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849266461DADC58D00C73810 /* Assets.xcassets */; };
+		8492664A1DADC58D00C73810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849266481DADC58D00C73810 /* LaunchScreen.storyboard */; };
+		849266551DADC58D00C73810 /* VideoGuard_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849266541DADC58D00C73810 /* VideoGuard_DemoTests.m */; };
+		849266601DADC58D00C73810 /* VideoGuard_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492665F1DADC58D00C73810 /* VideoGuard_DemoUITests.m */; };
+		8492666E1DADC5B400C73810 /* qidong.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8492666D1DADC5B400C73810 /* qidong.mp4 */; };
+		849266711DADC5E100C73810 /* VideoGuardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849266701DADC5E100C73810 /* VideoGuardViewController.m */; };
+		849266731DADC6DB00C73810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849266721DADC6DB00C73810 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849266511DADC58D00C73810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8492662F1DADC58D00C73810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849266361DADC58D00C73810;
+			remoteInfo = VideoGuard_Demo;
+		};
+		8492665C1DADC58D00C73810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8492662F1DADC58D00C73810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849266361DADC58D00C73810;
+			remoteInfo = VideoGuard_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849266371DADC58D00C73810 /* VideoGuard_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoGuard_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8492663B1DADC58D00C73810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8492663D1DADC58D00C73810 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8492663E1DADC58D00C73810 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		849266401DADC58D00C73810 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		849266411DADC58D00C73810 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		849266461DADC58D00C73810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849266491DADC58D00C73810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8492664B1DADC58D00C73810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849266501DADC58D00C73810 /* VideoGuard_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoGuard_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849266541DADC58D00C73810 /* VideoGuard_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoGuard_DemoTests.m; sourceTree = "<group>"; };
+		849266561DADC58D00C73810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8492665B1DADC58D00C73810 /* VideoGuard_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoGuard_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8492665F1DADC58D00C73810 /* VideoGuard_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoGuard_DemoUITests.m; sourceTree = "<group>"; };
+		849266611DADC58D00C73810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8492666D1DADC5B400C73810 /* qidong.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qidong.mp4; sourceTree = "<group>"; };
+		8492666F1DADC5E100C73810 /* VideoGuardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoGuardViewController.h; sourceTree = "<group>"; };
+		849266701DADC5E100C73810 /* VideoGuardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoGuardViewController.m; sourceTree = "<group>"; };
+		849266721DADC6DB00C73810 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849266341DADC58D00C73810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8492664D1DADC58D00C73810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849266581DADC58D00C73810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8492662E1DADC58D00C73810 = {
+			isa = PBXGroup;
+			children = (
+				849266391DADC58D00C73810 /* VideoGuard_Demo */,
+				849266531DADC58D00C73810 /* VideoGuard_DemoTests */,
+				8492665E1DADC58D00C73810 /* VideoGuard_DemoUITests */,
+				849266381DADC58D00C73810 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849266381DADC58D00C73810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849266371DADC58D00C73810 /* VideoGuard_Demo.app */,
+				849266501DADC58D00C73810 /* VideoGuard_DemoTests.xctest */,
+				8492665B1DADC58D00C73810 /* VideoGuard_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849266391DADC58D00C73810 /* VideoGuard_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8492663D1DADC58D00C73810 /* AppDelegate.h */,
+				8492663E1DADC58D00C73810 /* AppDelegate.m */,
+				8492666D1DADC5B400C73810 /* qidong.mp4 */,
+				849266401DADC58D00C73810 /* ViewController.h */,
+				849266411DADC58D00C73810 /* ViewController.m */,
+				8492666F1DADC5E100C73810 /* VideoGuardViewController.h */,
+				849266701DADC5E100C73810 /* VideoGuardViewController.m */,
+				849266721DADC6DB00C73810 /* Main.storyboard */,
+				849266461DADC58D00C73810 /* Assets.xcassets */,
+				849266481DADC58D00C73810 /* LaunchScreen.storyboard */,
+				8492664B1DADC58D00C73810 /* Info.plist */,
+				8492663A1DADC58D00C73810 /* Supporting Files */,
+			);
+			path = VideoGuard_Demo;
+			sourceTree = "<group>";
+		};
+		8492663A1DADC58D00C73810 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8492663B1DADC58D00C73810 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849266531DADC58D00C73810 /* VideoGuard_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				849266541DADC58D00C73810 /* VideoGuard_DemoTests.m */,
+				849266561DADC58D00C73810 /* Info.plist */,
+			);
+			path = VideoGuard_DemoTests;
+			sourceTree = "<group>";
+		};
+		8492665E1DADC58D00C73810 /* VideoGuard_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8492665F1DADC58D00C73810 /* VideoGuard_DemoUITests.m */,
+				849266611DADC58D00C73810 /* Info.plist */,
+			);
+			path = VideoGuard_DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849266361DADC58D00C73810 /* VideoGuard_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849266641DADC58D00C73810 /* Build configuration list for PBXNativeTarget "VideoGuard_Demo" */;
+			buildPhases = (
+				849266331DADC58D00C73810 /* Sources */,
+				849266341DADC58D00C73810 /* Frameworks */,
+				849266351DADC58D00C73810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoGuard_Demo;
+			productName = VideoGuard_Demo;
+			productReference = 849266371DADC58D00C73810 /* VideoGuard_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8492664F1DADC58D00C73810 /* VideoGuard_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849266671DADC58D00C73810 /* Build configuration list for PBXNativeTarget "VideoGuard_DemoTests" */;
+			buildPhases = (
+				8492664C1DADC58D00C73810 /* Sources */,
+				8492664D1DADC58D00C73810 /* Frameworks */,
+				8492664E1DADC58D00C73810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849266521DADC58D00C73810 /* PBXTargetDependency */,
+			);
+			name = VideoGuard_DemoTests;
+			productName = VideoGuard_DemoTests;
+			productReference = 849266501DADC58D00C73810 /* VideoGuard_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8492665A1DADC58D00C73810 /* VideoGuard_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8492666A1DADC58D00C73810 /* Build configuration list for PBXNativeTarget "VideoGuard_DemoUITests" */;
+			buildPhases = (
+				849266571DADC58D00C73810 /* Sources */,
+				849266581DADC58D00C73810 /* Frameworks */,
+				849266591DADC58D00C73810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8492665D1DADC58D00C73810 /* PBXTargetDependency */,
+			);
+			name = VideoGuard_DemoUITests;
+			productName = VideoGuard_DemoUITests;
+			productReference = 8492665B1DADC58D00C73810 /* VideoGuard_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8492662F1DADC58D00C73810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AlezJi;
+				TargetAttributes = {
+					849266361DADC58D00C73810 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					8492664F1DADC58D00C73810 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 849266361DADC58D00C73810;
+					};
+					8492665A1DADC58D00C73810 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 849266361DADC58D00C73810;
+					};
+				};
+			};
+			buildConfigurationList = 849266321DADC58D00C73810 /* Build configuration list for PBXProject "VideoGuard_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8492662E1DADC58D00C73810;
+			productRefGroup = 849266381DADC58D00C73810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849266361DADC58D00C73810 /* VideoGuard_Demo */,
+				8492664F1DADC58D00C73810 /* VideoGuard_DemoTests */,
+				8492665A1DADC58D00C73810 /* VideoGuard_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849266351DADC58D00C73810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8492664A1DADC58D00C73810 /* LaunchScreen.storyboard in Resources */,
+				849266471DADC58D00C73810 /* Assets.xcassets in Resources */,
+				8492666E1DADC5B400C73810 /* qidong.mp4 in Resources */,
+				849266731DADC6DB00C73810 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8492664E1DADC58D00C73810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849266591DADC58D00C73810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849266331DADC58D00C73810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849266421DADC58D00C73810 /* ViewController.m in Sources */,
+				8492663F1DADC58D00C73810 /* AppDelegate.m in Sources */,
+				849266711DADC5E100C73810 /* VideoGuardViewController.m in Sources */,
+				8492663C1DADC58D00C73810 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8492664C1DADC58D00C73810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849266551DADC58D00C73810 /* VideoGuard_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849266571DADC58D00C73810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849266601DADC58D00C73810 /* VideoGuard_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849266521DADC58D00C73810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849266361DADC58D00C73810 /* VideoGuard_Demo */;
+			targetProxy = 849266511DADC58D00C73810 /* PBXContainerItemProxy */;
+		};
+		8492665D1DADC58D00C73810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849266361DADC58D00C73810 /* VideoGuard_Demo */;
+			targetProxy = 8492665C1DADC58D00C73810 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849266481DADC58D00C73810 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849266491DADC58D00C73810 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849266621DADC58D00C73810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		849266631DADC58D00C73810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849266651DADC58D00C73810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoGuard_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.VideoGuard-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		849266661DADC58D00C73810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoGuard_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.VideoGuard-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		849266681DADC58D00C73810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoGuard_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.VideoGuard-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoGuard_Demo.app/VideoGuard_Demo";
+			};
+			name = Debug;
+		};
+		849266691DADC58D00C73810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoGuard_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.VideoGuard-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoGuard_Demo.app/VideoGuard_Demo";
+			};
+			name = Release;
+		};
+		8492666B1DADC58D00C73810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoGuard_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.VideoGuard-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoGuard_Demo;
+			};
+			name = Debug;
+		};
+		8492666C1DADC58D00C73810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoGuard_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.VideoGuard-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoGuard_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849266321DADC58D00C73810 /* Build configuration list for PBXProject "VideoGuard_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849266621DADC58D00C73810 /* Debug */,
+				849266631DADC58D00C73810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849266641DADC58D00C73810 /* Build configuration list for PBXNativeTarget "VideoGuard_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849266651DADC58D00C73810 /* Debug */,
+				849266661DADC58D00C73810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		849266671DADC58D00C73810 /* Build configuration list for PBXNativeTarget "VideoGuard_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849266681DADC58D00C73810 /* Debug */,
+				849266691DADC58D00C73810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8492666A1DADC58D00C73810 /* Build configuration list for PBXNativeTarget "VideoGuard_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8492666B1DADC58D00C73810 /* Debug */,
+				8492666C1DADC58D00C73810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8492662F1DADC58D00C73810 /* Project object */;
+}
